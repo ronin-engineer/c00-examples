@@ -1,4 +1,4 @@
-package variable;
+package $02;
 
 import java.util.Scanner;
 
@@ -12,6 +12,11 @@ public class StringVariable {
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
-        System.out.printf("%s is %d years old.", name, age);
+        scanner.nextLine();
+        System.out.printf("%s is %d years old.\n", name, age);
+
+        System.out.print("Enter your height: ");
+        int height = scanner.nextInt();
+        System.out.printf("%s is %s cm", name, height);
     }
 }

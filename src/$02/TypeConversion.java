@@ -1,4 +1,4 @@
-package variable;
+package $02;
 
 public class TypeConversion {
 
